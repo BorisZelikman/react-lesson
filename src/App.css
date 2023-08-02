@@ -49,3 +49,10 @@
 .hell-scape {
   background-color: red;
 }
+.self {
+  font-weight: 800;
+  padding-left: 30px;
+}
+.other {
+  font-weight: 800;
+}

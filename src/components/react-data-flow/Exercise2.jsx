@@ -34,7 +34,9 @@ export default function Exercise2(){
     })
 
     const people=state.conversations.map((c)=>c.with);
-    const convo=(state.displayConversation===null?[]:state.conversations.filter(c=>c.with===state.displayConversation)[0].convo)
+    const convo=(
+        state.displayConversation===null?[]:
+        state.conversations.filter(c=>c.with===state.displayConversation)[0].convo)
 
     const displayConvo=(name)=>{
         setState({...state, displayConversation:name})
