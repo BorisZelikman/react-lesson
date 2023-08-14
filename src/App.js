@@ -9,6 +9,11 @@ import SpotCheck5 from "./components/SpotCheck5";
 import { useState } from "react";
 import Exercise1 from "./components/react-data-flow/Exercise1";
 import Exercise2 from "./components/react-data-flow/Exercise2";
+import ReactInputEx1 from "./components/react-input/ReactInputEx1";
+import ReactInputEx2 from "./components/react-input/ReactInputEx2";
+import SideEffect from "./components/useEffect/SideEffect";
+import Watches from "./components/useEffect/Ex1-watches";
+import FetchAandDisplay from "./components/useEffect/Ex2-FetchAndDisplay";
 
 function App1() {
   const showCompany = (name, revenue) => {
@@ -141,8 +146,13 @@ const SpotCheck = () => {
 function App() {
   return (
     <>
-      <Exercise2 />
-      <Exercise1 />
+      <Watches />
+      <FetchAandDisplay />
+      {/* <SideEffect /> */}
+      {/* <ReactInputEx1 />
+      <ReactInputEx2 />
+      {/* <Exercise2 /> 
+      <Exercise1 /> */}
       {/* <SpotCheck />
       <Ex2 />
       <Hudini />
