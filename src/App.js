@@ -15,6 +15,7 @@ import SideEffect from "./components/useEffect/SideEffect";
 import Watches from "./components/useEffect/Ex1-watches";
 import FetchAandDisplay from "./components/useEffect/Ex2-FetchAndDisplay";
 
+import { Cloudinary } from "@cloudinary/url-gen";
 function App1() {
   const showCompany = (name, revenue) => {
     return (
@@ -148,7 +149,7 @@ function App() {
     <>
       <Watches />
       <FetchAandDisplay />
-      {/* <SideEffect /> */}
+      <SideEffect />
       {/* <ReactInputEx1 />
       <ReactInputEx2 />
       {/* <Exercise2 /> 

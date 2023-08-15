@@ -625,7 +625,6 @@ function FetchAandDisplay() {
     return ( <>
         <h1>Top Posts</h1>
          {posts===null?null:posts.map((post) => <Post key={post.id} title={post.title} body={post.body} isCompact={isCompact}/>)}
-        {/* <Post key="1" title="title" body="{post.body}" /> */}
     </> );
 }
 

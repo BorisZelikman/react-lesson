@@ -1,7 +1,17 @@
-.post {
-  background-color: "silver";
-  display: "inline-block";
-  width: 200;
-  height: 500;
-  margin: 5;
+.box2 {
+  width: 400px;
+  margin: 2px;
+  align-self: flex-start;
+  background-color: blanchedalmond;
+  border-color: blue;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+.big {
+  display: inline-block;
+}
+.small {
+  display: block;
+  width: 100%;
 }
